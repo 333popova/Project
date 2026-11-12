@@ -18,7 +18,7 @@ Develop a tool to calculate and verify SHA-256 hash values of files, ensuring th
 1. Open the GitHub repository https://github.com/333popova/Project.
 2. Find File_Integrity_Verification.ipynb
 3. Open the notebook using Google Colab (you can use the Open in Colab option if available).
-4. In Google Colab, upload the test file in the Colab session before running the program otherwise, the program may display: File not found!
+4. In Google Colab, upload the test file in the Colab session before running the program, otherwise the program may display: File not found!
 5. Run the code cells in order after uploading the test files.
 ## How to Use
 The menu has four options:
