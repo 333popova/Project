@@ -12,17 +12,18 @@ Develop a tool to calculate and verify SHA-256 hash values of files, ensuring th
 3. A function to verify whether the file has been modified.
 4. Multiple file verification.
 5. Verification history.
-7. Error handling.
+6. Error handling.
 ## Technologies Used
 1. Programming language Python.
 2. Library: hashlib (used to calculate SHA-256 hashes).
 3. csv: used to save verification history.
 4. os: used to check whether files exist.
 5. datetime: used to record the date and time of verification.
+All libraries are included in Python's standart library.
 ## Generated Files
 The application automatically creates:
-1. .sha256 files: store the original SHA-256 hash of each file.
-2. verification_history.csv: stores verification results, including filenames, dates and verification statuses.
+1. ".sha256" files: store the original SHA-256 hash of each file.
+2. "verification_history.csv": stores verification results, including filenames, dates and verification statuses.
 ## How to Run
 ### Option 1: Google Colab
 1. Open the GitHub repository https://github.com/333popova/Project.
@@ -39,7 +40,7 @@ The application automatically creates:
 5. Press Ctrl+Shift+P to open Command Palette.
 6. Search for and select Git: Clone.
 7. Paste the copied GitHub repository link and press Enter.
-8. Choose a folder on your computer to save project.
+8. Choose a folder on your computer to save the project.
 9. Click Open when VS Code asks whether you want to open the cloned repository.
 10. Find and open File_Integrity_Verification.ipynb
 11. Select a Python kernel if prompted.
@@ -52,6 +53,6 @@ The menu has six options:
 2. Save original hash: saves the file's SHA-256 hash and displays a success or error message.
 3. Verify the integrity: verifies and displays whether the file is unchanged or has been modified (compares the original hash with the newly calculated hash); displays an error message if a problem occurs.
 4. Verify multiple files: allows users to enter multiple filenames separated by commas. Verifies and displays whether each file is unchanged or has been modified (compares the original hash with the newly calculated hash).
-5. View verification history: displays all previous verification results, including filenames, dated and integrity statuses.
+5. View verification history: displays all previous verification results, including filenames, dates and integrity statuses.
 6. Exit: exits the program.
 
