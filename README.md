@@ -10,7 +10,9 @@ Develop a tool to calculate and verify SHA-256 hash values of files, ensuring th
 1. A function to calculate the file's SHA-256 hash.
 2. A function to save the file's SHA-256 hash.
 3. A function to verify whether the file has been modified.
-4. Error handling.
+4. Multiple file verification.
+5. Verification history.
+7. Error handling.
 ## Technologies Used
 1. Programming language Python.
 2. Library: hashlib (used to calculate SHA-256 hashes)
@@ -21,9 +23,11 @@ Develop a tool to calculate and verify SHA-256 hash values of files, ensuring th
 4. In Google Colab, upload the test file in the Colab session before running the program, otherwise the program may display: File not found!
 5. Run the code cells in order after uploading the test files.
 ## How to Use
-The menu has four options:
+The menu has six options:
 1. Calculate file hash (SHA-256): calculates and displays the file's SHA-256 hash or displays an error message if a problem occurs.
 2. Save original hash: saves the file's SHA-256 hash and displays a success or error message.
 3. Verify the integrity: verifies and displays whether the file is unchanged or has been modified (compares the original hash with the newly calculated hash); displays an error message if a problem occurs.
-4. Exit: exits the program.
+4. Verify multiple files: allows users to enter multiple filenames separated by commas. Verifies and displays whether each file is unchanged or has been modified (compares the original hash with the newly calculated hash).
+5. View verification history: displays all previous verification results, including filenames, dated and integrity statuses.
+6. Exit: exits the program.
 
