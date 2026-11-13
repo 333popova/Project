@@ -6,7 +6,7 @@
 Use Case Scenario for Cryptography
 15. File Integrity Verification:
 Develop a tool to calculate and verify SHA-256 hash values of files, ensuring their integrity during transfer or storage. It saves the original hash and compares it with the current hash to determine whether the file is unchanged or has been changed.
-##Project Demo
+## Project Demo
 https://studentncirl-my.sharepoint.com/:v:/g/personal/x22474114_student_ncirl_ie/IQB8kuRUnmhwSrqOCb0fJKN5ASm9Twail0_WRXqqyAEDzMM?e=50lNKD
 ## Features
 1. A function to calculate the file's SHA-256 hash.
