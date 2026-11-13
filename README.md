@@ -17,11 +17,20 @@ Develop a tool to calculate and verify SHA-256 hash values of files, ensuring th
 1. Programming language Python.
 2. Library: hashlib (used to calculate SHA-256 hashes)
 ## How to Run
+### Option 1: Google Colab
+1. Open the GitHub repository https://github.com/333popova/Project.
+2. Find File_Integrity_Verification_Colab.ipynb
+3. Open the notebook using Google Colab (you can use the Open in Colab option if available).
+4. In Google Colab, upload the test file in the Colab session before running the program, otherwise the program may display: File not found!
+5. Run the first code cells in order after uploading the test files.
+6. Follow the menu instructions to use the application.
+### Option 2: Visual Studio Code
 1. Open the GitHub repository https://github.com/333popova/Project.
 2. Find File_Integrity_Verification.ipynb
 3. Open the notebook using Google Colab (you can use the Open in Colab option if available).
 4. In Google Colab, upload the test file in the Colab session before running the program, otherwise the program may display: File not found!
-5. Run the code cells in order after uploading the test files.
+6. Run the first code cells in order after uploading the test files.
+7. Follow the menu instructions to use the application.
 ## How to Use
 The menu has six options:
 1. Calculate file hash (SHA-256): calculates and displays the file's SHA-256 hash or displays an error message if a problem occurs.
