@@ -19,7 +19,7 @@ Develop a tool to calculate and verify SHA-256 hash values of files, ensuring th
 3. csv: used to save verification history.
 4. os: used to check whether files exist.
 5. datetime: used to record the date and time of verification.
-All libraries are included in Python's standart library.
+All libraries are included in Python's standard library.
 ## Generated Files
 The application automatically creates:
 1. ".sha256" files: store the original SHA-256 hash of each file.
